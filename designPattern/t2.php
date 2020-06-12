@@ -1,5 +1,5 @@
 <?php
-
+//测试下信息；
 // class workerThread extends Thread {
 //     public function __construct($i){
 //       $this->i=$i;
