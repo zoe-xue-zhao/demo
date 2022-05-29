@@ -19,4 +19,11 @@ git checkout -b dev 新建一个分支，并切换到该分支
 git push -u origin dev
 建立远程分支和本地分支之间的追踪关系
 git branch --set-upstream-to=origin/dev dev 
+然后提交暂存区
+git add
+然后提交本地仓库
+git commit -m ‘test dev’
+推送远程仓库
+git push
+
 
