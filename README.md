@@ -11,4 +11,11 @@ git config --edit
 sslverify = false
 
 之后 git push -u origin devolpment 就正常了
-然后，建立本地和远程的分支
+
+# 如果各个分支和master内容不一致，且本地的各个分支代码已经不同，如果要上传远程分支，则需要单独push，例如：
+如果当前所在分支是devolpment
+git push origin devolpment
+否则，需要push 别的分支，就需要指定分支名称去push
+git push origin dev:dev
+
+
