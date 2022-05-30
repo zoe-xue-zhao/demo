@@ -67,6 +67,10 @@ git merge devolpment
 然后查看状态。
 git status
 
+# 合并分支——将dev合并到master上
+先切换到master上
+git checkout master
+dev合并到master
 
 
 
