@@ -22,7 +22,7 @@ git branch --set-upstream-to=origin/dev dev
 然后提交暂存区
 git add
 然后提交本地仓库
-git commit -m ‘test dev’
+git commit -m 'test dev'
 推送远程仓库
 git push
 
@@ -30,12 +30,15 @@ git push
 # 获取dev分支的代码(远程有分支)
 
 切换到dev分支，
+git checkout dev
+git pull
 
 如果没有，需要新建git dev分支并建立远程链接，再切换到dev分支
 git checkout -b dev
 git branch -a
 git branch --set-upstream-to=origin/dev dev
 git pull
+
 
 
 
