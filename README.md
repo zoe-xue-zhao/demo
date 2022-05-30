@@ -18,4 +18,8 @@ git push origin devolpment
 否则，需要push 别的分支，就需要指定分支名称去push
 git push origin dev:dev
 
+# 合并分支 将devolpment 合并到dev上 
+
+
+
 
