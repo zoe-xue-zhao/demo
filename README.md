@@ -71,7 +71,10 @@ git status
 先切换到master上
 git checkout master
 dev合并到master
-
-
+git merge dev
+查看状态
+git status
+推送远端
+git push
 
 
