@@ -56,7 +56,17 @@ git push origin devolpment
 git push origin dev:dev
 
 
-# 合并分支 将devolpment 合并到dev上 
+# 合并分支，将devolpment 分支合并到dev上
+先切换到dev上
+git checkout dev
+确保dev是最新的代码
+git pull origin dev
+将devolpment合并到dev上
+git merge devolpment
+然后代码合并。去看哪些需要，哪些不需要
+然后查看状态。
+git status
+
 
 
 
