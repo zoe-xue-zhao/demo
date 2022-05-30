@@ -78,3 +78,11 @@ git status
 git push
 
 
+# 合并分支——将master 分支合并到dev上
+先切换到master上
+git pull
+再切换到dev上
+git checkout dev
+合并master到自己的分支
+git merge master
+
