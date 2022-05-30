@@ -11,3 +11,4 @@ git config --edit
 sslverify = false
 
 之后 git push -u origin devolpment 就正常了
+然后，建立本地和远程的分支
